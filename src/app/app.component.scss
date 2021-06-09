@@ -2,11 +2,15 @@
   display: flex;
   flex-direction: column;
   height: 100%;
-  background-color: #e1e2ed;
+
+  background-image: url('../assets/img/Louvre.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 .top-section {
-  background-color: orangered;
+  // background-color: orangered;
   text-align: center;
   padding: 4rem;
 
@@ -26,10 +30,17 @@
 }
 
 .content-section {
-  background-color: cadetblue;
+  // background-color: cadetblue;
   flex-grow: 1;
 }
 
 .bottom-section {
-  background-color: pink;
+  // background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  app-tabs {
+    margin: auto;
+  }
 }

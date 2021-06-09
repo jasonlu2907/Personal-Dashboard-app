@@ -5,10 +5,18 @@ import { NgModule } from '@angular/core';
 import { routing } from './app.routing';
 
 import { AppComponent } from './app.component';
+import { TabsComponent } from './tabs/tabs.component';
+import { BookmarksComponent } from './bookmarks/bookmarks.component';
+import { TodosComponent } from './todos/todos.component';
+import { CheckListComponent } from './check-list/check-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TabsComponent,
+    BookmarksComponent,
+    TodosComponent,
+    CheckListComponent
   ],
   imports: [
     BrowserModule,
