@@ -1,1 +1,35 @@
 /* You can add global styles to this file, and also import other style files */
+// @import "~bootstrap/dist/css/bootstrap.css";
+
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+// GG Icons Material
+@import url('https://fonts.googleapis.com/css?family=Material+Icons+Outlined');
+
+html, body {
+  height: 100%;
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+h1 {
+  font-size: 4.8rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+
+  font-family: 'Inter', sans-serif;
+}

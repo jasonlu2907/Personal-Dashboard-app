@@ -1,0 +1,26 @@
+<div class="tabs">
+  <a
+    [routerLink]="['/bookmarks']"
+    routerLinkActive="selected"
+    class="tab"
+  >
+    <div class="tab-title tab-bookmark">
+      <!-- GG Icon Material -->
+      <i class="material-icons-outlined">bookmarks</i>
+    </div>
+  </a>
+
+  <a [routerLink]="['/todos']" routerLinkActive="selected" class="tab">
+    <div class="tab-title tab-todo">
+      <!-- GG Icon Material -->
+      <i class="material-icons-outlined">notes</i>
+    </div>
+  </a>
+
+  <a [routerLink]="['/notes']" routerLinkActive="selected" class="tab">
+    <div class="tab-title tab-check">
+      <!-- GG Icon Material -->
+      <i class="material-icons-outlined">check</i>
+    </div>
+  </a>
+</div>
