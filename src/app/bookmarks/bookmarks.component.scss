@@ -1,0 +1,19 @@
+.bookmarks-wrapper {
+  height: 100%;
+  overflow-y: auto; // any overflow is now scrollable
+}
+
+.bookmark-tiles-container {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+
+  flex-wrap: wrap;
+}
+
+.container {
+  margin: auto;
+}
