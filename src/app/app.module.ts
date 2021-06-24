@@ -9,6 +9,7 @@ import { TabsComponent } from './tabs/tabs.component';
 import { BookmarksComponent } from './bookmarks/bookmarks.component';
 import { TodosComponent } from './todos/todos.component';
 import { CheckListComponent } from './check-list/check-list.component';
+import { BookmarksTitleComponent } from './bookmarks/bookmarks-title/bookmarks-title.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { CheckListComponent } from './check-list/check-list.component';
     TabsComponent,
     BookmarksComponent,
     TodosComponent,
-    CheckListComponent
+    CheckListComponent,
+    BookmarksTitleComponent
   ],
   imports: [
     BrowserModule,
