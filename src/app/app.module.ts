@@ -11,6 +11,8 @@ import { TodosComponent } from './todos/todos.component';
 import { CheckListComponent } from './check-list/check-list.component';
 import { BookmarksTitleComponent } from './bookmarks/bookmarks-title/bookmarks-title.component';
 
+// Extending Modules
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,7 +24,8 @@ import { BookmarksTitleComponent } from './bookmarks/bookmarks-title/bookmarks-t
   ],
   imports: [
     BrowserModule,
-    routing
+    routing,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

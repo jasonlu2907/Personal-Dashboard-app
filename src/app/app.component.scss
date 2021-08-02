@@ -39,6 +39,8 @@
 
   //minheight = 0 thì mới dùng overflow-y: auto đc (scrollbar)
   min-height: 0;
+
+  position: relative;
 }
 
 .bottom-section {
